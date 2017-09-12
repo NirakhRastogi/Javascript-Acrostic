@@ -14,3 +14,5 @@
 ---
 # Step 3
 ### Run `index.html` 
+
+![](/Acrostic/ScreenShot.jpg)
