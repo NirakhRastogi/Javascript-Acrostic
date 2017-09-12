@@ -1,0 +1,14 @@
+{
+  "name": "acrostic",
+  "version": "1.0.0",
+  "description": "It is Acrostic Rainbow",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nirakh Rastogi",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,186 @@
+body{
+    background-color: lightblue;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+#mainBar{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(173,216,230,1);
+    box-shadow: 2px 16px 16px lightblue;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainBar>input{
+    width: 400px;
+    height: 30px;
+    padding-left: 15px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(28, 73, 87, 0.4);
+    box-shadow: 0px 13px 12px 5px rgba(28, 73, 87, 0.4);
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#mainBar>button{
+    width: 200px;
+    height: 30px;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(230, 73, 87, .8);
+    box-shadow: 0px 13px 12px 5px rgba(230, 73, 87, .8);
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 500ms ease-in-out all;
+}
+#mainBar>button:hover{
+    transform: scale(1.1);
+    outline: none;
+}
+
+#container{
+    margin-top: 90px;
+}
+
+
+#myRainbow{
+    font-size: 40px;
+    z-index: -2;
+}
+
+#myDiv{
+    text-align: center;
+    left: 0px;
+    position: relative;
+    animation: wiggle 4s alternate ease-in-out forwards;
+}
+
+@keyframes wiggle{
+    0%{
+        left: -100%;
+        opacity: .5;
+        transform: rotateY(00deg);        
+        transform: scale(.5);
+    }
+    20%{
+        left: 80%;
+        opacity: 1;
+        transform: scale(1.5);
+        transform: rotateY(30deg);    }
+    40%{
+        left: -60%;
+        opacity: 5;
+        transform: scale(.8);
+        transform: rotateY(90deg);    }
+    60%{
+        left: 40%;
+        opacity: 1;
+        transform: scale(.3);
+        transform: rotateY(180deg);
+    }
+    80%{
+        left: -20%;
+        opacity: .5;
+        transform: scale(.5);
+        transform: rotateY(270deg);
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+        transform: scale(1);
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+
+
+#rainbowViolet{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-13%);
+    background-color: #9400D3;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
+#rainbowIndigo{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    background-color: #4B0082;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
+#rainbowBlue{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-6%);
+    background-color: #0000FF;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
+#rainbowGreen{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-1%);
+    background-color: #00FF00;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
+#rainbowYellow{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,3%);
+    background-color: #FFFF00;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
+#rainbowOrange{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,7%);
+    background-color: #FF7F00;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
+
+#rainbowRed{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,10%);
+    background-color: #FF0000;
+    border-radius: 100%;
+    height: 400%;
+    width: 200%;
+}
